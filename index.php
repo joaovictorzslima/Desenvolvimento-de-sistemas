@@ -17,13 +17,13 @@
         </p>
         
         <p>
-        <input type="numer" name="horas_trab" 
-        placeholder="Horas trabalhadas" required>
+        <input type="number" name="horas_trab" 
+        placeholder="Horas trabalhadas" required min="1">
         </p>
         
         <p>    
         <input type="number" name="valor_hora" 
-        placeholder="Valor da hora R$" required>
+        placeholder="Valor da hora R$" required min="20" step="0.1">
         </p>
 
         <p>
